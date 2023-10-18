@@ -9,7 +9,9 @@ import numpy as np
 
 sns.set()
 
-st.header("Capstone Two - Analyzing Spotify's Revenue and Expense")
+st.header("Capstone Two")
+st.header("Analyzing Spotify's Revenue and Expense")
+st.header("By Andrei Ramos")
 st.subheader("Introduction")
 st.write("What is Spotify's financial performance like? As one of the most widely recognized music streaming services, offering not only a vast library of songs but also podcasts to users worldwide, Spotify has always piqued my curiosity in terms of its financial well-being. Now, I have the opportunity to delve into a thorough financial analysis of this industry leader.")
 df = pd.read_csv('Spotify Quarterly.csv')
